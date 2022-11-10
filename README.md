@@ -1,2 +1,3 @@
 # CNN for Object Classification and Data Augmentation
- 
+
+Was tasked to implement a CNN model to classify 10 objects from the cifar10 dataset. Did training before adding data augmention in the form of random zoom and random rotataion. Then did training again with data augmentation. Data augmentation was added in the form of concatenation to the original dataset. Thus, tripling it's size. The testing accuracy showcased an increase. Finally, added a dropout layer to the dense layers and then did training again. The testing accuracy also showcased an increase. By adding the data augmentented data, we artifically created more data and allowed the model be trained on more version of the data. By adding the dropout layer, we prevented the model from overfitting.
